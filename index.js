@@ -25,7 +25,7 @@ inquirer
         //use axios:
         async function makeRequest(location) {
             try {
-                const apiKey = '409c4698b49809ac3a9c337ae5592cb8';
+                const apiKey = 'enter_your_api_key';
                 const url = `http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${apiKey}&units=metric`;
 
                 // Make the request
